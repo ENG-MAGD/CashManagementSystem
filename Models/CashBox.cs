@@ -7,5 +7,5 @@ public class CashBox
     public string Name { get; set; } = string.Empty;
     public string Currency { get; set;  } = string.Empty;
     public decimal OpeningBalance {  get; set; }
-    public DateTime CreatedDate { get; set; }
+    public DateTime CreatedDate { get; set; } 
 }
