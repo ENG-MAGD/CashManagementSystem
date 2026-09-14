@@ -10,5 +10,6 @@ public class Category
     public string Name { get; set; } = string.Empty;
     public TransactionType Type { get; set; }
     public string UserId { get; set; } = string.Empty;
+    public ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
 
 }

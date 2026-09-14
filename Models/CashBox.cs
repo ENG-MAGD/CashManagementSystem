@@ -8,4 +8,5 @@ public class CashBox
     public string Currency { get; set;  } = string.Empty;
     public decimal OpeningBalance {  get; set; }
     public DateTime CreatedDate { get; set; } 
+    public ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
 }

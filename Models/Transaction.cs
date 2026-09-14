@@ -11,6 +11,8 @@ public class Transaction
     public DateTime Date { get; set; }
     public string Description { get; set; } = string.Empty;
     public int CashBoxId { get; set; }
+    public CashBox CashBox { get; set; } = null!;
     public int CategoryId { get; set; }
-    
+    public Category Category { get; set; } = null!;
+
 }
